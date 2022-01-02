@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lobster&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /*font-family: 'Arimo', 'Lobster', 'Open Sans Condensed', sans-serif;*/
+    background-image: url(../img/bakgrnd.jpeg);
+    height: 100%;
+}
+.h-content{
+    background-color:rgba(18, 35, 46,0.8);
+    position: fixed;
+    width: 100%;
+}
+.h-content{
+    display: flex;
+}
+.logo{
+    border-left: 3px solid rgb(244,191,12);
+    padding-left: 6px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.92;
+    
+}
+.logo p{
+    font-family: 'Open Sans Condensed';
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo .zaha,
+.logo p{
+    color: rgba(128,128,128,1);
+}
+.logo .office{
+    color: white;
+    font-size: 1.9rem;
+    padding-right: 20px;
+}
+.logo .zaha{
+    font-size: 1.9rem;
+}
+.h-content i{
+    margin-left: 60px;
+    margin-top: 45px;
+    color: white;
+}
+.showcase{
+    background: url(../img/closeup-shot-person-thinking-buying-selling-house_181624-19907.jpg), linear-gradient(rgba(52,74,114,0.9),rgba(52,74,114,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.showcase .service{
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+    text-align: center;
+    padding-top: 17rem;
+    line-height: 2.9rem;
+    padding-left: 1.4rem;
+    padding-right: 2rem;
+}
+article{
+    background-color: white;
+    height: 100%;
+    margin: 30px 10px;
+    text-align: left;
+}
+article .dan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding-left: 20px;
+    line-height: 1.7;
+}
+article .dan:first-child{
+    padding-top: 30px;
+}
+.qualify,
+.edu,
+.associate{
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+article .dani{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-right: 10px;
+    padding-left: 20px;
+    line-height: 1.7;
+}
+article .dani:last-child{
+    padding-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(18, 35, 46);
+    height: 600px;
+}
+footer .yel-low{
+    color: rgb(244,191,12);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+footer p,
+footer a{
+    font-family:cursive;
+    color: white;
+    line-height: 1.8;
+}
+header{
+    display: flex;
+    justify-content: right;
+}
+/*handburger menu*/
+.handburger-menu{
+    font-size: 0.9rem;
+    display: none;
+    justify-content: space-around;
+    background-color:rgb(5, 0, 15);
+    height: 650px;
+    width: 90%;
+    position: fixed;
+    
+}   
+.handburger-menu a{
+    text-decoration: none;
+    color: rgb(237,242,247);
+    line-height: 4;
+}
+.handburger-menu .area{
+    list-style-type: none;
+    margin-top: 70px;
+    padding-left: 30px;
+}
+.handburger-menu p a{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    margin-right: 40px;
+    
+}
+hr{
+    width: 200px;
+    border-bottom: 2px;
+}
+.drop-down{
+    display: flex;
+    justify-content:space-between;
+}
+.sub-menu{
+    display: block;
+    margin-left: 10px;
+}

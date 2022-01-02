@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lobster&family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    /*font-family: 'Arimo', 'Lobster', 'Open Sans Condensed', sans-serif;*/
+    background-image: url(../img/bakgrnd.jpeg);
+    height: 100%;
+}
+.h-content{
+    background-color:rgba(18, 35, 46,0.8);
+    position: fixed;
+    width: 100%;
+}
+.h-content{
+    display: flex;
+}
+.logo{
+    border-left: 3px solid rgb(244,191,12);
+    padding-left: 6px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.92;
+    
+}
+.logo p{
+    font-family: 'Open Sans Condensed';
+    font-size: 1rem;
+    font-weight: 600;
+}
+.logo .zaha,
+.logo p{
+    color: rgba(128,128,128,1);
+}
+.logo .office{
+    color: white;
+    font-size: 1.9rem;
+    padding-right: 20px;
+}
+.logo .zaha{
+    font-size: 1.9rem;
+}
+.h-content i{
+    margin-left: 60px;
+    margin-top: 45px;
+    color: white;
+}
+.showcase{
+    background: url(../img/maibec-lambris-bardeau-projet-10a.jpg), linear-gradient(rgba(52,74,114,0.9),rgba(52,74,114,0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 65vh;
+    width: 100%;
+}
+.showcase .service{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: white;
+    text-align: center;
+    padding-top: 8rem;
+    line-height: 2.9rem;
+    padding-left: 1.4rem;
+    padding-right: 2rem;
+}
+.location{
+    background-image: url(../img/bakgrnd.jpeg);
+    height: 25vh;
+}
+.location div{
+    background-color: white;
+    height: 70%;
+    margin: 30px 20px;
+}
+.location p{
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: rgb(18, 35, 46);
+    text-align: center;
+    padding:10px 30px;
+    line-height: 1.5;
+}
+.what-we-do h2,
+.practice h2{
+    color: rgb(18, 35, 46);
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.real-estate,
+.probate,
+.business{
+    background-color: rgb(60,86,119);
+    margin: 30px 30px;
+    border-left: 5px solid rgb(18, 35, 46) ;
+}
+
+.what-we-do i{
+    color:rgb(244,191,12) ;
+    font-size: 1.5rem;
+    border: 1px solid rgb(244,191,12);
+    border-radius: 50%;
+    padding: 30px 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.what-we-do,
+.practice {
+    text-align: center;
+}
+.what-we-do h3{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.7;
+}
+.what-we-do p{
+    color: white;
+    font-family: Arimo;
+    padding: 40px 30px 80px 30px;
+    line-height: 1.9;
+}
+.practice div{
+    background-color: rgb(237,242,247);
+    border: 2px solid rgb(18, 35, 46);
+    margin: 30px 30px;
+}
+.practice p{
+    color: rgb(18, 35, 46);
+    font-size: 1.5rem;
+    padding: 50px 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+article{
+    background-color: white;
+    height: 100%;
+    margin: 30px 10px;
+}
+article h3{
+    font-size: 1.8rem;
+    color: rgb(18, 35, 46);
+    line-height: 1.7;
+    padding: 30px 20px;
+}
+article p{
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.litigation p{
+    padding-bottom: 30px;
+}
+.attorney{
+    padding-left: 15px;
+    font-size: 1.3rem;
+    color: rgb(18, 35, 46);
+    
+}
+.litigation li{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.litigation .firm{
+    padding-top: 30px;
+}
+.association img{
+    margin-bottom: 10px;
+    width: 50%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(18, 35, 46);
+    height: 600px;
+}
+footer .yel-low{
+    color: rgb(244,191,12);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+}
+footer p,
+footer a{
+    font-family:cursive;
+    color: white;
+    line-height: 1.8;
+}
+header{
+    display: flex;
+    justify-content: right;
+}
+/*handburger menu*/
+.handburger-menu{
+    font-size: 0.9rem;
+    display: none;
+    justify-content: space-around;
+    background-color:rgb(5, 0, 15);
+    height: 650px;
+    width: 90%;
+    position: fixed;
+    
+}   
+.handburger-menu a{
+    text-decoration: none;
+    color: rgb(237,242,247);
+    line-height: 4;
+}
+.handburger-menu .area{
+    list-style-type: none;
+    margin-top: 70px;
+    padding-left: 30px;
+}
+.handburger-menu p a{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    margin-right: 40px;
+    
+}
+hr{
+    width: 200px;
+    border-bottom: 2px;
+}
+.drop-down{
+    display: flex;
+    justify-content:space-between;
+}
+.sub-menu{
+    display: block;
+    margin-left: 10px;
+}
