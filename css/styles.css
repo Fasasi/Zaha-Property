@@ -211,6 +211,7 @@ header{
     height: 700px;
     width: 80%;
     position: fixed;
+    z-index: 999999;
     
 }   
 .handburger-menu a{
@@ -241,4 +242,7 @@ hr{
 .sub-menu{
     display: block;
     margin-left: 10px;
+}
+.cancel{
+    font-size: 1rem;
 }
