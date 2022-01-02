@@ -89,7 +89,7 @@ article .hrline{
     background-color:rgb(244,191,12);
     height: 3px;
     width: 20%;
-    margin-left: 130px;
+    margin-left: 150px;
     margin-bottom: 40px;
     margin-top: 20px;
 }
@@ -116,14 +116,7 @@ article li i{
 article .dan:last-child{
     padding-bottom: 10px;
 }
-article .hrline2{
-    background-color:rgb(244,191,12);
-    height: 3px;
-    width: 20%;
-    margin-left: 130px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-}
+
 footer{
     text-align: center;
     background-color: rgb(18, 35, 46);
