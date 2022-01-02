@@ -240,7 +240,7 @@ hr{
     justify-content:space-between;
 }
 .sub-menu{
-    display: block;
+    display: none;
     margin-left: 10px;
 }
 .cancel{
