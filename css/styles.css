@@ -205,11 +205,11 @@ header{
 /*handburger menu*/
 .handburger-menu{
     font-size: 0.9rem;
-    display: none;
+    display: flex;
     justify-content: space-around;
     background-color:rgb(5, 0, 15);
     height: 650px;
-    width: 90%;
+    width: 80%;
     position: fixed;
     
 }   
