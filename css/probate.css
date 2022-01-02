@@ -20,6 +20,7 @@ a{
 }
 .h-content{
     display: flex;
+    justify-content: space-evenly;
 }
 .logo{
     border-left: 3px solid rgb(244,191,12);
