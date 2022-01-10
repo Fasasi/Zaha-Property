@@ -129,13 +129,14 @@ header{
 /*handburger menu*/
 .handburger-menu{
     font-size: 0.9rem;
-    display: none;
+    display: none; /*flex*/
     justify-content: space-around;
     background-color:rgb(5, 0, 15);
-    height: 650px;
-    width: 90%;
+    height: 700px;
+    width: 80%;
     position: fixed;
-    
+    z-index: 999999999;
+    margin-left: 80px;
 }   
 .handburger-menu a{
     text-decoration: none;
@@ -147,22 +148,35 @@ header{
     margin-top: 70px;
     padding-left: 30px;
 }
-.handburger-menu p a{
-    display: block;
-    color: white;
-    font-size: 2rem;
-    margin-right: 40px;
-    
-}
 hr{
     width: 200px;
     border-bottom: 2px;
 }
-.drop-down{
+ .drop-down{
     display: flex;
-    justify-content:space-between;
+} 
+.prac{
+    display: block;
+    color: white;
+    font-size: 1rem;
+}
+.drop-down i{
+    color: white;
+    font-size: 1rem;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 .sub-menu{
-    display: block;
-    margin-left: 10px;
+    display: none;/*block*/
+    margin-left: 15px;
+}
+.test{
+    display: block;/*block*/
+    margin-left: 15px;
+}
+.cancel{
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 40px;
+    padding-right: 50px;
 }
