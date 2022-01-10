@@ -17,30 +17,46 @@ subMDown.addEventListener('click', ()=>{
 
 });
 
-const allDiv =document.querySelector('.wwdcontent');
-const divvv =allDiv.querySelectorAll('div');
+const header =document.querySelector('.h-content');
 
-console.log(divvv);
+window.addEventListener('scroll', ()=>{
+    header.style.backgroundColor = 'rgba(18, 35, 46, 1)'; 
+});
 
-divvv.forEach((dovv)=>{
-    dovv.addEventListener('click', ()=>{
-        dovv.style.borderLeft ='5px solid rgb(244,191,12)';
-        // dovv.classList.toggle('boxstyle');
-    });
+const box1=document.querySelector('.real-estate');
+const box2=document.querySelector('.business');
+const box3=document.querySelector('.probate');
+
+box1.addEventListener('click', ()=>{
+    box1.classList.add('boxstyle');
+    box2.classList.remove('boxstyle');
+    box3.classList.remove('boxstyle');
+    
+});
+
+box2.addEventListener('click', ()=>{
+    box2.classList.add('boxstyle');
+    box1.classList.remove('boxstyle');
+    box3.classList.remove('boxstyle');   
+
+});
+box3.addEventListener('click', ()=>{
+    box3.classList.add('boxstyle'); 
+    box2.classList.remove('boxstyle');
+    box1.classList.remove('boxstyle');
+      
+
 });
 
 
-// const box1=document.querySelector('.real-estate');
-// const box2=document.querySelector('.probate');
-// const box3=document.querySelector('.business');
+// const allDiv =document.querySelector('.wwdcontent');
+// const divvv =allDiv.querySelectorAll('div');
 
-// box1.addEventListener('click', ()=>{
-// //    box1.classList.toggle('boxstyle');
-//    box1.style.borderLeft ='5px solid rgb(244,191,12)';
+// console.log(divvv);
 
+// divvv.forEach((dovv)=>{
+//     dovv.addEventListener('click', ()=>{
+//         dovv.style.borderLeft ='5px solid rgb(244,191,12)';
+//         }
 // });
 
-// box3.addEventListener('click', ()=>{
-    
-
-// });
